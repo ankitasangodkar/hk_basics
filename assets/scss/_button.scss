@@ -1,0 +1,15 @@
+.add-btn{
+	border: 1px solid #FF5F7A;
+	box-sizing: border-box;
+	border-radius: 36px;
+	width: 112px;
+	text-align: center;
+	cursor: pointer;
+	span{
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 48px;
+		letter-spacing: 0.2px;
+		color: #FF5F7A;
+	}
+}

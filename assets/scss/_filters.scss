@@ -1,0 +1,52 @@
+.filters{
+    &-option{
+        display: none;
+        @media (min-width: 992px){
+            width: auto;
+            display: flex;
+            align-items: center; 
+        }
+    }
+    .dropdown{
+        .btn{
+            width: 180px;
+            height: 42px;
+            background: #FFFFFF;
+            border: 1px solid #DDDDDD;
+            box-sizing: border-box;
+            border-radius: 24px;
+            text-align: left;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 18px;
+            letter-spacing: 0.1px;
+            &.dropdown-toggle{
+                &:after {
+                    content: '';
+                    position: absolute;
+                    right: 15px;
+                    top: 20px;        
+                }
+            }
+            &:focus{
+                box-shadow: none;
+            }
+        }
+    }
+    &-btn{
+        display: none;
+        @media (max-width: 991px){
+            display: block;
+            button{
+                position: absolute;
+                right: 0;
+                top: 0px;
+                width: 120px;
+                height: 62px;
+                background: #FFFFFF;
+                box-shadow: -20px 0px 31px rgba(0, 0, 0, 0.15);
+                border: 0;
+            }
+        }
+    }
+}
