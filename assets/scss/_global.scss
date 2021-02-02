@@ -16,3 +16,9 @@ span{
 	    max-width: 818px;
 	}
 }
+a{
+	text-decoration: none;
+	&:hover{
+		text-decoration: none;
+	}
+}
