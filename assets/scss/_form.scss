@@ -1,0 +1,16 @@
+.form-group{
+	.form-control{
+		&.form-search{
+			border: 1px solid #D0D0D0;
+			box-sizing: border-box;
+			border-radius: 26px;
+			font-size: 15px;
+			line-height: 24px;
+			letter-spacing: 0.2px;
+			color: #687582;
+		}
+	}
+	&.has-search{
+		margin: 0 20px;
+	}
+}
