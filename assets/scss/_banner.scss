@@ -1,23 +1,50 @@
-.banner{
-	background: #FFFAEF;
-	border-radius: 24px;
-	margin: 40px auto;
-	padding: 0 40px;
-	.bannerText{
-		.heading{
-			font-weight: 500;
-			font-size: 36px;
-			line-height: 57px;
-			letter-spacing: 0.2px;
-			color: #3E454C;
-			padding-bottom: 6px;
+.banner-section{
+	.banner{
+		background: #FFFAEF;
+		border-radius: 24px;
+		margin: 40px auto;
+		padding: 40px;
+		position: relative;
+		&-blue{
+			background: #E6F3F8;
 		}
-		.subText{
-			font-weight: normal;
-			font-size: 16px;
-			line-height: 20px;
-			letter-spacing: 0.2px;
-			color: #3E454C;
+		&-red{
+			background: #FFEBE9;
 		}
+		.bannerText{
+			width: 80%;
+			.heading{
+				font-weight: 500;
+				font-size: 36px;
+				line-height: 57px;
+				letter-spacing: 0.2px;
+				color: #3E454C;
+				padding-bottom: 6px;
+			}
+			.subText{
+				font-weight: normal;
+				font-size: 16px;
+				line-height: 20px;
+				letter-spacing: 0.2px;
+				color: #3E454C;
+			}
+			@media (max-width: 767px){
+	    		padding-bottom: 30px;
+			}
+		}
+		.bannerIcon{
+			position: absolute;
+			right: 0;
+			top: 15px;
+			@media (max-width: 767px){
+				top: 0;
+			}
+		}
+		@media (max-width: 767px){
+			padding: 0 15px;
+		}
+	}
+	@media (max-width: 767px){
+		margin: 0 20px;
 	}
 }

@@ -15,6 +15,12 @@
 		background: linear-gradient(270.17deg, #FFFFFF 1.03%, rgba(255, 255, 255, 0) 99.94%), #FFF5E0;
 		box-shadow: 0px -6px 30px rgba(0, 0, 0, 0.15);
 		border-radius: 24px 24px 100px 0px;
+		&-red{
+			background: linear-gradient(270.17deg, #FFFFFF 1.03%, rgba(255, 255, 255, 0) 99.94%), #FFF2F2;
+		}
+		&-blue{
+			background: linear-gradient(270.17deg, #FFFFFF 1.03%, rgba(255, 255, 255, 0) 99.94%), #C0E3F1;
+		}
 	}
 	&-img{
 		position: relative;
@@ -86,6 +92,10 @@
 		    position: absolute;
 		    right: -20px;
 		    bottom: 11px;
+		    @media (max-width: 425px){
+		    	width: 50%;
+		    	right: 0;
+		    }
 		}
 	}
 	&-price{
