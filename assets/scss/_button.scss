@@ -13,3 +13,8 @@
 		color: #FF5F7A;
 	}
 }
+button{
+	&:focus{
+		outline: 0;
+	}
+}

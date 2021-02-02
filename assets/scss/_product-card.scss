@@ -92,6 +92,10 @@
 		    position: absolute;
 		    right: -20px;
 		    bottom: 11px;
+		    @media (max-width: 991px){
+		    	width: 60%;
+		    	right: 0;
+		    }
 		    @media (max-width: 425px){
 		    	width: 50%;
 		    	right: 0;
