@@ -59,6 +59,7 @@ button{
 	&:focus{
 		outline: 0;
 		text-decoration: none !important;
+		box-shadow: none !important;
 	}
 	&:hover{
 		text-decoration: none !important;

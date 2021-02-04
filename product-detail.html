@@ -13,8 +13,11 @@
   <!-- Favicons -->
   <link href="assets/images/favicon.png" rel="icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   <!-- Google Fonts -->
+   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+   <!-- icon -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/bootstrap/bootstrap.css" rel="stylesheet">
@@ -97,31 +100,31 @@
 	<section class="product-detail-tags">
 		<div class="container">
 			<div class="icon-list">
-            <div>
+            <div class="icon-box">
    				<div class="icon">
    					<img src="assets/images/fish.png" class="icon-tag">
    				</div>
                <p class="icon-title">Best Japanese Salmon</p>
             </div>
-            <div>
+            <div class="icon-box">
    				<div class="icon">
    					<img src="assets/images/microscope.png" class="icon-tag">
    				</div>
                <p class="icon-title">Scientifically Formulated</p>
             </div>
-            <div>
+            <div class="icon-box">
    				<div class="icon">
    					<img src="assets/images/gmo.png" class="icon-tag">
    				</div>
                <p class="icon-title">Non GMO</p>
             </div>
-            <div>
+            <div class="icon-box">
    				<div class="icon">
    					<img src="assets/images/jar.png" class="icon-tag">
    				</div>
                <p class="icon-title">Heavy Metal Free</p>
             </div>
-            <div>
+            <div class="icon-box">
    				<div class="icon">
    					<img src="assets/images/fssai.png" class="icon-tag">
    				</div>
@@ -137,7 +140,7 @@
             <div class="card">
                <div class="card-header" id="headingOne">
                   <h2 class="mb-0">
-                     <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                     <button class="btn accordion-btn collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                       Details
                      </button>
                   </h2>
@@ -152,7 +155,7 @@
             <div class="card">
                <div class="card-header" id="headingTwo">
                   <h2 class="mb-0">
-                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                     <button class="btn accordion-btn collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                       Suggested Use
                      </button>
                   </h2>
@@ -166,7 +169,7 @@
             <div class="card">
                <div class="card-header" id="headingThree">
                   <h2 class="mb-0">
-                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                     <button class="btn accordion-btn collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                       Ingredients
                      </button>
                   </h2>
@@ -180,7 +183,7 @@
             <div class="card">
                <div class="card-header" id="headingFour">
                   <h2 class="mb-0">
-                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="  #collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                     <button class="btn accordion-btn collapsed" type="button" data-toggle="collapse" data-target="  #collapseFour" aria-expanded="false" aria-controls="collapseFour">
                       Benefits
                      </button>
                   </h2>
@@ -235,7 +238,193 @@
       </div>
    </section>
 
-      <section class="product-accordion mt-5 mb-4">
+   <section>
+      <div class="container">
+         <div class="customer-reviews">
+         <h2>What our customers are saying about us</h2>
+         <div class="review">
+            <p>Write a review</p>
+         </div>
+         <div class="row">
+            <div class="col-md-4 col-sm-12">
+               <div class="icon">
+                  <img src="assets/images/info-icon.png">
+               </div>
+               <div class="body-text">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <h5>Zaira Gupta</h5>
+                  <span>21 December 2021</span>
+               </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+               <div class="icon">
+                  <img src="assets/images/info-icon.png">
+               </div>
+               <div class="body-text">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <h5>Zaira Gupta</h5>
+                  <span>21 December 2021</span>
+               </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+               <div class="icon">
+                  <img src="assets/images/info-icon.png">
+               </div>
+               <div class="body-text">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <h5>Zaira Gupta</h5>
+                  <span>21 December 2021</span>
+               </div>
+            </div>
+         </div>
+         <a href="#">All reviews</a>
+      </div>
+      </div>
+   </section>
+   <div class="suggested-produts">
+      <div class="container">
+         <h2>Suggested Products</h2>
+         <p>Explore some of our other supplements</p>
+            <!-- ======= Product Card 1 ======= -->
+            <section class="product">
+               <div class="container d-flex align-items-center justify-content-between flex-wrap">
+                  <!-- set 1 -->
+                  <div class="product-card">
+                     <div class="product-image-card row d-flex align-items-center mb-3">
+                        <div class="product-img text-center">
+                           <img src="./assets/images/product.png">
+                        </div>
+                        <div class="product-tags">
+                           <span><img src="assets/images/product-icon-orange.png">Bone Strength</span>
+                           <span><img src="assets/images/product-icon-orange.png">Bone Strength</span>
+                           <span><img src="assets/images/product-icon-orange.png">Bone Strength</span>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-md-12 product-description">
+                           <div class="product-details">
+                              <h3>Salmon 0mega-3</h3>
+                              <span>30 Softgels Tablets</span>
+                           </div>
+                           <div class="d-flex align-items-center justify-content-between">
+                              <div>
+                                 <div class="product-price">₹1529</div>
+                                 <div class="product-offer">
+                                    <span class="product-sale-price">₹1699</span>
+                                    (23% Off)
+                                 </div>
+                              </div>
+                              <div class="add-btn">
+                                 <button class="btn-text"><span class="plus-icon">+</span>Add*</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="product-card">
+                     <div class="product-image-card row d-flex align-items-center mb-3">
+                        <div class="product-img text-center">
+                           <img src="./assets/images/product.png">
+                        </div>
+                        <div class="product-tags">
+                           <span><img src="assets/images/product-icon-orange.png">Bone Strength</span>
+                           <span><img src="assets/images/product-icon-orange.png">Bone Strength</span>
+                           <span><img src="assets/images/product-icon-orange.png">Bone Strength</span>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-md-12 product-description">
+                           <div class="product-details">
+                              <h3>Salmon 0mega-3</h3>
+                              <span>30 Softgels Tablets</span>
+                           </div>
+                           <div class="d-flex align-items-center justify-content-between">
+                              <div>
+                                 <div class="product-price">₹1529</div>
+                                 <div class="product-offer">
+                                    <span class="product-sale-price">₹1699</span>
+                                    (23% Off)
+                                 </div>
+                              </div>
+                              <div class="add-btn">
+                                 <button class="btn-text"><span class="plus-icon">+</span>Add*</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- set 2 -->
+                  <div class="product-card">
+                     <div class="product-image-card row d-flex align-items-center mb-3">
+                        <div class="product-img text-center">
+                           <img src="./assets/images/product.png">
+                        </div>
+                        <div class="product-tags">
+                           <span><img src="assets/images/product-icon-orange.png">Bone Strength</span>
+                           <span><img src="assets/images/product-icon-orange.png">Bone Strength</span>
+                           <span><img src="assets/images/product-icon-orange.png">Bone Strength</span>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-md-12 product-description">
+                           <div class="product-details">
+                              <h3>Salmon 0mega-3</h3>
+                              <span>30 Softgels Tablets</span>
+                           </div>
+                           <div class="d-flex align-items-center justify-content-between">
+                              <div>
+                                 <div class="product-price">₹1529</div>
+                                 <div class="product-offer">
+                                    <span class="product-sale-price">₹1699</span>
+                                    (23% Off)
+                                 </div>
+                              </div>
+                              <div class="add-btn">
+                                 <button class="btn-text"><span class="plus-icon">+</span>Add*</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="product-card">
+                     <div class="product-image-card row d-flex align-items-center mb-3">
+                        <div class="product-img text-center">
+                           <img src="./assets/images/product.png">
+                        </div>
+                        <div class="product-tags">
+                           <span><img src="assets/images/product-icon-orange.png">Bone Strength</span>
+                           <span><img src="assets/images/product-icon-orange.png">Bone Strength</span>
+                           <span><img src="assets/images/product-icon-orange.png">Bone Strength</span>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-md-12 product-description">
+                           <div class="product-details">
+                              <h3>Salmon 0mega-3</h3>
+                              <span>30 Softgels Tablets</span>
+                           </div>
+                           <div class="d-flex align-items-center justify-content-between">
+                              <div>
+                                 <div class="product-price">₹1529</div>
+                                 <div class="product-offer">
+                                    <span class="product-sale-price">₹1699</span>
+                                    (23% Off)
+                                 </div>
+                              </div>
+                              <div class="add-btn">
+                                 <button class="btn-text"><span class="plus-icon">+</span>Add*</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- End Product Card -->
+      </div>
+   </div>
+
+   <section class="product-accordion mt-5 mb-4">
       <div class="container">
          <div class="header-title">
             <h2>Frequently Asked Questions</h2>
@@ -244,7 +433,7 @@
             <div class="card">
                <div class="card-header" id="headingOne1">
                   <h2 class="mb-0">
-                     <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
+                     <button class="btn accordion-btn collapsed" type="button" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
                       How is Salmon Omega different from other Omega supplements?
                      </button>
                   </h2>
@@ -259,7 +448,7 @@
             <div class="card">
                <div class="card-header" id="headingTwo2">
                   <h2 class="mb-0">
-                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
+                     <button class="btn accordion-btn collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
                       When can I expect to see results?
                      </button>
                   </h2>
@@ -273,7 +462,7 @@
             <div class="card">
                <div class="card-header" id="headingThree3">
                   <h2 class="mb-0">
-                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
+                     <button class="btn accordion-btn collapsed" type="button" data-toggle="collapse" data-target="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
                       Can Omega affect my weight reduction?
                      </button>
                   </h2>
@@ -287,7 +476,7 @@
             <div class="card">
                <div class="card-header" id="headingFour4">
                   <h2 class="mb-0">
-                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="  #collapseFour4" aria-expanded="false" aria-controls="collapseFour4">
+                     <button class="btn accordion-btn collapsed" type="button" data-toggle="collapse" data-target="  #collapseFour4" aria-expanded="false" aria-controls="collapseFour4">
                       Does Salmon Omega have any side effects?
                      </button>
                   </h2>
