@@ -5,7 +5,7 @@
 			font-size: 18px;
 			line-height: 27px;
 			letter-spacing: 0.1px;
-			color: theme-color("dark");
+			color: #3E454C;
 			&.active{
 				color: #07A5B5;
 				position: relative;
@@ -22,6 +22,10 @@
 						bottom: -10px;
 					}
 				}
+			}
+			@media (max-width: 767px){
+				font-size: 14px;
+				line-height: 17px;
 			}
 		}
 	}

@@ -36,6 +36,11 @@
 		    	left: 15px;
 		    	top: -88px;
 		    }
+		    @media (max-width: 374px){
+			    width: 126px;
+			    top: -80px;
+			    left: 8px;
+		    }
 		}
 	}
 	&-tags{
@@ -54,12 +59,21 @@
 			@media (max-width: 991px){
 				margin-bottom: 10px;
 			}
+			@media (max-width: 374px){
+				font-size: 13px;
+			}
 		}
 		img{
 			margin-right: 15px;
+			@media (max-width: 374px){
+				margin-right: 8px;
+			}
 		}
 		@media (max-width: 991px){
 			padding: 20px 0px 20px 0;
+		}
+		@media (max-width: 374px){
+			padding: 15px 0px 20px 0;
 		}
 	}
 	&-description{

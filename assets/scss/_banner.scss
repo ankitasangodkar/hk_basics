@@ -20,6 +20,11 @@
 				letter-spacing: 0.2px;
 				color: #3E454C;
 				padding-bottom: 6px;
+				@media (max-width: 767px){
+					font-size: 28px;
+					line-height: 33px;
+					padding-top: 6px;
+				}
 			}
 			.subText{
 				font-weight: normal;
@@ -27,6 +32,11 @@
 				line-height: 20px;
 				letter-spacing: 0.2px;
 				color: #3E454C;
+				@media (max-width: 767px){
+					font-size: 14px;
+					line-height: 20px;
+					font-weight: 300;
+				}
 			}
 			@media (max-width: 767px){
 	    		padding-bottom: 30px;
@@ -37,11 +47,11 @@
 			right: 0;
 			top: 15px;
 			@media (max-width: 767px){
-				top: 0;
+				top: -14px;
 			}
 		}
 		@media (max-width: 767px){
-			padding: 0 15px;
+		    padding: 30px 20px 10px;
 		}
 	}
 	@media (max-width: 767px){
