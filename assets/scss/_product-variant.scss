@@ -1,0 +1,22 @@
+.product-variant{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+	.variant{
+		img{
+			width: 46px;
+			height: 46px;
+			object-fit: contain;
+			opacity: 0.4;
+		}
+		&.active{
+			border: 2px solid #07A5B5;
+			box-sizing: border-box;
+			border-radius: 5px;
+		    padding: 6px;
+			img{
+				opacity: 1;
+			}
+		}
+	}
+}

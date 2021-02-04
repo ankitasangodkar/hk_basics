@@ -1,0 +1,61 @@
+.accordion{
+	background: #F5FEFF;
+	border-radius: 24px;
+	width: 940px;
+	.card{
+		background: #F5FEFF;
+		border: 0;
+		border-bottom: 1px solid #dddddd;
+		border-radius: 0;
+		&-header{
+			border-bottom: 0;
+			background: #F5FEFF;
+			.btn-link{
+				font-weight: 500;
+				font-size: 18px;
+				line-height: 27px;
+				display: flex;
+				align-items: center;
+				letter-spacing: 0.1px;
+				color: #3E454C;
+			}
+		}
+		&-body{
+			padding-left: 32px;
+			padding-right: 32px;
+			padding-top: 0px;
+			font-size: 15px;
+			line-height: 24px;
+			letter-spacing: 0.2px;
+			color: #3E454C;
+			.header-text{
+				display: flex;
+				align-items: center;
+				margin-bottom: 15px;
+				.icon{
+					width: 46px;
+					height: 46px;
+				}
+				.title{
+					h5{
+						font-weight: 500;
+						font-size: 15px;
+						line-height: 18px;
+						display: flex;
+						align-items: center;
+						letter-spacing: 0.1px;
+						color: #3E454C;
+						margin-bottom: 0;
+						margin-left: 16px;
+					}
+				}
+			}
+		}
+		&:last-child{
+			border-bottom: 0;
+		}
+	}
+	@media (max-width: 991px){
+		width: 100%;
+	}
+}
