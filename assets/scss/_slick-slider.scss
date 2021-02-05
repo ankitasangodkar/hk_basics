@@ -1,0 +1,75 @@
+.product-slider, .product-image-slider{
+	.slick-carousel {
+	  margin: 0 auto;
+	  width: 1000px;
+	}
+	.slick-slide {
+	    margin: 30px 15px 0 0;	
+    }
+    .slide-arrow{
+		width: 60px;
+		height: 60px;
+		background: #FFFFFF;
+		border: 1px solid #DDDDDD;
+		box-sizing: border-box;
+		border-radius: 49px;
+		position: relative;
+ 		&.prev-arrow{
+ 		    position: absolute;
+		    right: -20px;
+		    top: 50%;
+		    z-index: 1;
+		    cursor: pointer;
+ 			.fa-arrow-right{
+ 				&:before{
+				    color: #07A5B5;
+    				font-size: 18px;
+ 				}
+ 			}
+ 		}
+ 		&.next-arrow{
+ 		    position: absolute;
+		    left: -20px;
+		    top: 50%;
+		    z-index: 1;
+		    cursor: pointer;
+ 			.fa-arrow-left{
+ 				&:before{
+				    color: #07A5B5;
+    				font-size: 18px;
+ 				}
+ 			}
+ 		}
+ 		&.slick-disabled{
+ 			opacity: 0;
+ 		}
+	}
+
+	.slick-dots {
+		display: flex;
+		justify-content: center;
+		margin: 0;
+		padding: 1rem 0;
+		list-style-type: none;
+	    width: 100%;
+
+		li {
+			margin: 0 0.25rem;
+		}
+		button {
+			font-size: 0;
+			width: 12px;
+			height: 12px;
+			padding: 0;
+			border: none;
+			border-radius: 100%;
+			background-color: #687582;
+			text-align: center;
+			cursor: pointer;
+		}
+		li.slick-active button {
+			background-color: #07A5B5;
+		}
+
+	}
+}

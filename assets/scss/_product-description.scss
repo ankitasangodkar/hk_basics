@@ -6,6 +6,10 @@
 		line-height: 57px;
 		letter-spacing: 0.2px;
 		color: #3E454C;
+		@media (max-width: 767px){
+			font-size: 22px;
+			line-height: 28px;
+		}
 	}
 	.sub-title{
 		font-weight: 300;
@@ -42,6 +46,9 @@
 			&:last-child(){
 				border-right: 0;
 			}
+			@media (max-width: 767px){
+				padding: 0 22px;
+			}
 	    }	
 	}
 	.product-size{
@@ -64,6 +71,8 @@
 			&.active{
 				background: #F5FEFF;
 				border: 1px solid #07A5B5;
+				color: #07A5B5;
+				font-weight: 600;
 			}
 		}
 	}
@@ -80,6 +89,9 @@
 				font-size: 28px;
 				line-height: 33px;
 				letter-spacing: 0.2px;
+				@media (max-width: 767px){
+					font-size: 14px;
+				}
 			}
 			.product-sale-price{
 				font-size: 18px;
@@ -89,6 +101,9 @@
 				color: #687582;
 				margin-left: 8px;
 				margin-right: 0;
+				@media (max-width: 767px){
+					font-size: 15px;
+				}
 			}
 			.product-offer{
 				font-weight: 400;
@@ -97,7 +112,13 @@
 				letter-spacing: 0.2px;
 				color: #FF5F7A;
 				margin-left: 4px;
+				@media (max-width: 767px){
+					font-size: 15px;
+				}
 			}
+		}
+		@media (max-width: 991px){
+			flex-direction: column;
 		}
 	}
 	.review{
@@ -108,6 +129,20 @@
 			letter-spacing: 0.2px;
 			color: #3E454C;
 			float: right;
+		    position: relative;
+			&:after{
+				content: "\f054";
+				font-size: 10px;
+				color: #000000;
+				font-family: 'FontAwesome';
+				position: absolute;
+				top: 2px;
+				right: -15px;
+				font-weight: 300;
+			}
 		}
+	}
+	@media (max-width: 767px){
+		padding: 0;
 	}
 }
