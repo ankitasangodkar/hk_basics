@@ -22,3 +22,15 @@ a{
 		text-decoration: none;
 	}
 }
+.deskMode{
+	display: block;
+	@media (max-width: 767px){
+		display: none !important;
+	}
+}
+.mobileMode{
+	display: block;
+	@media (min-width: 768px){
+		display: none !important;
+	}
+}

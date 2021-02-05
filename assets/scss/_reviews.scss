@@ -54,6 +54,17 @@
 	}
 	@media (max-width: 767px){
 		padding: 40px 20px;
+		background: rgba(241, 87, 75, 0.08);
+		border-radius: 24px;
+	}
+	.group-item{
+		@media (max-width: 767px){
+		    padding: 20px;
+			border-bottom: 1px solid #DDDDDD;
+			&:last-child{
+				border-bottom: none;
+			}
+		}
 	}
 }
 
@@ -69,6 +80,9 @@
 		color: #FF5F7A;
 		.fa{
 			margin-left: 10px;
+			@media (max-width: 767px){
+				margin-left: 5px;
+			}
 		}
 		.value{
 			font-weight: 400;
@@ -76,6 +90,10 @@
 			line-height: 24px;
 			letter-spacing: 0.2px;
 			color: #000000;
+			@media (max-width: 767px){
+				margin-left: 4px;
+				margin-right: 4px;
+			}
 		}
 	}
 	.review-btn{
@@ -97,9 +115,26 @@
 			top: 2px;
 			right: -25px;
 			font-weight: 300;
+			@media (max-width: 767px){
+				right: -10px;
+			}
 		}
 		@media (max-width: 767px){
 			margin-left: 0;
+		}
+		&.main-product-btn{
+			color: #000;
+			&:after{
+				color: #000;
+			}
+			@media (max-width: 375px){
+				font-size: 15px;
+			}
+		}
+		@media (max-width: 375px){
+		    font-size: 15px;
+		    text-align: left;
+		    white-space: nowrap;
 		}
 	}
 }

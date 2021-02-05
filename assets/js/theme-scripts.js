@@ -26,8 +26,8 @@ $('.product-slider').slick({
   slidesToShow: 2,
   slidesToScroll: 2,
   centerPadding: '60px',
-  prevArrow: '<button class="slide-arrow prev-arrow"><i class="fa fa-arrow-right"></i></button>',
-  nextArrow: '<button class="slide-arrow next-arrow"><i class="fa fa-arrow-left"></i></button>',
+  prevArrow: '<button class="slide-arrow next-arrow"><i class="fa fa-arrow-left"></i></button>',
+  nextArrow: '<button class="slide-arrow prev-arrow"><i class="fa fa-arrow-right"></i></button>',
   responsive: [
     {
       breakpoint: 767,
@@ -46,13 +46,29 @@ $('.product-image-slider').slick({
   speed: 300,
   slidesToShow: 1,
   slidesToScroll: 1,
-  prevArrow: '<button class="slide-arrow prev-arrow"><i class="fa fa-arrow-right"></i></button>',
-  nextArrow: '<button class="slide-arrow next-arrow"><i class="fa fa-arrow-left"></i></button>',
+  prevArrow: '<button class="slide-arrow next-arrow"><i class="fa fa-arrow-left"></i></button>',
+  nextArrow: '<button class="slide-arrow prev-arrow"><i class="fa fa-arrow-right"></i></button>',
   responsive: [
     {
       breakpoint: 767,
       settings: {
         slidesToShow: 1,
+        arrows: false,
+        dots: true,
+    }
+  }
+  ]
+});
+
+$('.product-tag-slider').slick({
+  slidesToShow: 5,
+  slidesToScroll: 5,
+  responsive: [
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToScroll: 3,
+        slidesToShow: 3,
         arrows: false,
         dots: true,
     }
