@@ -78,9 +78,16 @@ button{
 		letter-spacing: 2.5px;
 		text-transform: uppercase;
 		color: #FFFFFF;
+		transition: all 0.4s ease-in;
+		border: 1px solid #FF5F7A;
 		@media (max-width: 991px){
 			width: 100%;
 			margin-top: 20px;
+		}
+		&:hover{
+			color: #FF5F7A;
+			border: 1px solid #FF5F7A;
+			background-color: white;
 		}
 	}
 	.plus-icon{
@@ -90,5 +97,11 @@ button{
 		letter-spacing: 2.5px;
 		text-transform: uppercase;
 		color: #FFFFFF;	
+		&:hover{
+			color: #FF5F7A;
+		}
+	}
+	&:hover{
+		color: #FF5F7A;
 	}
 }
