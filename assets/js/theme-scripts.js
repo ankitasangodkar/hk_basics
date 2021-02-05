@@ -43,6 +43,7 @@ $('.product-slider').slick({
 
 $('.product-image-slider').slick({
   dots: false,
+  infinite: false,
   speed: 300,
   slidesToShow: 1,
   slidesToScroll: 1,
@@ -53,7 +54,6 @@ $('.product-image-slider').slick({
       breakpoint: 767,
       settings: {
         slidesToShow: 1,
-        arrows: false,
         dots: true,
     }
   }
