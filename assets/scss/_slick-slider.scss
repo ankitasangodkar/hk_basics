@@ -308,7 +308,7 @@
 		}
 	}
 }
-.articles-slider{
+.articles-slider, .product-image-slider, .product-slider{
 	&:after, &:before{
 		display: none;
 	}
