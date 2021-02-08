@@ -175,10 +175,15 @@ button{
 			color: #FF5F7A;
 			width: 210px;
 	    	margin-left: 3em;
+	    	background: transparent;
 			&:hover{
 				color: #FFF;
 				border: 2px solid #FF5F7A;
 				background-color: #FF5F7A;
+			}
+			@media (max-width: 767px){
+				width: 180px;
+				margin-left: 2em;
 			}
 		}
 	}

@@ -87,10 +87,14 @@ $('.info-slider').slick({
     {
       breakpoint: 767,
       settings: {
+        centerMode:true,
+        slidesToShow: 1,
         slidesToScroll: 1,
-        slidesToShow: 3,
-        arrows: false,
         dots: true,
+        infinite: true,
+        cssEase: 'linear',
+        variableHeight: true,
+        arrows: false
       }
     }
   ]
