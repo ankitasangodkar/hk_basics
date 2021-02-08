@@ -107,6 +107,15 @@ $('.articles-slider').slick({
   arrows: false,
   responsive: [
     {
+      breakpoint: 991,
+      settings: {
+        slidesToScroll: 2,
+        slidesToShow: 2,
+        arrows: false,
+        dots: true,
+      }
+    },
+    {
       breakpoint: 767,
       settings: {
         slidesToScroll: 1,
