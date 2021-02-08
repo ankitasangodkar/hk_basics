@@ -21,10 +21,11 @@ $(document).on('hide','.accordion', function (e) {
 
 $('.product-slider').slick({
   dots: false,
-  infinite: false,
+  infinite: true,
   speed: 300,
   slidesToShow: 2,
   slidesToScroll: 1,
+  centerMode: true,
   centerPadding: '60px',
   prevArrow: '<button class="slide-arrow next-arrow"><i class="fa fa-arrow-left"></i></button>',
   nextArrow: '<button class="slide-arrow prev-arrow"><i class="fa fa-arrow-right"></i></button>',
@@ -33,9 +34,10 @@ $('.product-slider').slick({
       breakpoint: 767,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
         arrows: false,
         dots: true,
+        centerMode: false,
     }
   }
   ]
@@ -68,9 +70,12 @@ $('.product-tag-slider').slick({
       breakpoint: 767,
       settings: {
         slidesToScroll: 3,
-        slidesToShow: 1,
+        slidesToShow: 3,
         arrows: false,
         dots: true,
+        centerMode: true,
+        centerPadding: '60px',
+        variableWidth: true,
     }
   }
   ]
