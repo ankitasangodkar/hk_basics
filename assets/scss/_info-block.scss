@@ -1,0 +1,70 @@
+.hk-basics-pillar{
+	.info-block{
+		text-align: center;
+		.title{
+			font-weight: 500;
+			font-size: 36px;
+			line-height: 57px;
+			letter-spacing: 0.2px;
+			color: #3E454C;
+			@media (max-width: 767px){
+				font-size: 28px;
+				line-height: 33px;
+			}
+		}
+		.sub-title{
+			font-weight: 400;
+			font-size: 18px;
+			line-height: 27px;
+			text-align: center;
+			letter-spacing: 0.2px;
+			color: #3E454C;
+		    width: 500px;
+			margin: auto;
+			@media (max-width: 767px){
+				font-weight: 300;
+				font-size: 14px;
+				line-height: 22px;
+				text-align: center;
+				color: #687582;
+			    width: 100%;
+			}
+		}
+		&-group{
+			display: flex;
+			align-items: flex-end;
+			justify-content: space-between;
+			margin-top: 30px;
+			@media (max-width: 767px){
+				flex-direction: column;
+			    align-items: flex-start;
+			}
+		}
+		&-item{
+			img{
+				width: 200px;
+				height: auto;
+				object-fit: contain;
+				@media(max-width: 767px){
+					width: 150px;
+				}
+			}
+			&-text{
+				font-weight: 500;
+				font-size: 22px;
+				line-height: 28px;
+				text-align: center;
+				letter-spacing: 0.1px;
+				color: #3E454C;
+				@media (max-width: 767px){
+					font-size: 16px;
+					line-height: 28px;
+				}
+			}
+			@media(max-width: 767px){
+			    display: flex;
+    			align-items: center;
+			}
+		}
+	}
+}

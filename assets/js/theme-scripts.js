@@ -24,7 +24,7 @@ $('.product-slider').slick({
   infinite: false,
   speed: 300,
   slidesToShow: 2,
-  slidesToScroll: 2,
+  slidesToScroll: 1,
   centerPadding: '60px',
   prevArrow: '<button class="slide-arrow next-arrow"><i class="fa fa-arrow-left"></i></button>',
   nextArrow: '<button class="slide-arrow prev-arrow"><i class="fa fa-arrow-right"></i></button>',
@@ -68,7 +68,45 @@ $('.product-tag-slider').slick({
       breakpoint: 767,
       settings: {
         slidesToScroll: 3,
+        slidesToShow: 1,
+        arrows: false,
+        dots: true,
+    }
+  }
+  ]
+});
+
+$('.info-slider').slick({
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  dots: false,
+  infinite: true,
+  prevArrow: '<button class="slide-arrow next-arrow"><i class="fa fa-arrow-left"></i></button>',
+  nextArrow: '<button class="slide-arrow prev-arrow"><i class="fa fa-arrow-right"></i></button>',
+  responsive: [
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToScroll: 1,
         slidesToShow: 3,
+        arrows: false,
+        dots: true,
+      }
+    }
+  ]
+});
+
+$('.articles-slider').slick({
+  slidesToShow: 3,
+  slidesToScroll: 3,
+  dots: false,
+  arrows: false,
+  responsive: [
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToScroll: 1,
+        slidesToShow: 1,
         arrows: false,
         dots: true,
     }

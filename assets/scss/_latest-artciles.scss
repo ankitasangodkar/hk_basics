@@ -1,0 +1,103 @@
+.latest-articles-cards{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+	.article-card{
+		background: #FFFFFF;
+		box-shadow: 0px 7px 22px rgba(0, 0, 0, 0.1);
+		border-radius: 34px;
+	    padding: 30px;
+	    flex: 0 0 30.33333%;
+	    max-width: 30.33333%;
+	    margin-left: 10px;
+	    margin-right: 10px;
+	    margin-top: 50px;
+        margin-bottom: 20px;
+		.article-featured-img{
+			filter: drop-shadow(0px 4px 18px rgba(0, 0, 0, 0.05));
+			background: #FFFFFF;
+			border: 1px solid #000000;
+			box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.05);
+			border-radius: 50%;
+			position: absolute;
+			top: -40px;
+			left: 0;
+			right: 0;
+		    margin: auto;
+		    width: 210px;
+		    height: 210px;
+		    object-fit: cover;
+		}
+		.article-body{
+		    padding-top: 170px;
+			.title{
+				font-weight: 500;
+				font-size: 22px;
+				line-height: 28px;
+				letter-spacing: 0.1px;
+				color: #000000;
+				margin-bottom: 10px;
+			}
+			.date{
+				font-weight: 300;
+				font-size: 14px;
+				line-height: 22px;
+				color: #000000;
+				margin-left: 0;
+			}
+			.comment-count{
+				font-weight: 300;
+				font-size: 14px;
+				line-height: 22px;
+				color: #000000;
+			}
+			.content{
+				font-weight: 300;
+				font-size: 16px;
+				line-height: 27px;
+				letter-spacing: 0.2px;
+				color: #000000;
+				margin-bottom: 15px;
+				display: -webkit-box;
+				-webkit-line-clamp: 3;
+				-webkit-box-orient: vertical;
+				overflow: hidden;
+				text-overflow: ellipsis;
+			}
+			.blog-tags{
+				display: flex;
+				align-items: center;
+				span{
+					background: #FFFFFF;
+					border: 1px solid #DDDDDD;
+					box-sizing: border-box;
+					border-radius: 44px;
+					font-weight: 300;
+					font-size: 14px;
+					line-height: 22px;
+					text-align: center;
+					color: #3E454C;
+					margin: 0 20px 0 0;
+				    padding: 5px 10px 5px 10px;
+				}
+			}
+		}
+		@media (max-width: 767px){
+			margin-top: 40px;
+		}
+	}
+	&:after{
+	    content: '';
+	    background: #F5FEFF;
+	    position: absolute;
+	    left: 0;
+	    right: 0;
+	    top: 126px;
+	    width: 100%;
+	    height: 80%;
+	    z-index: -1;
+	}
+	@media (max-width: 767px){
+		background: transparent;
+	}
+}

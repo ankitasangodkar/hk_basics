@@ -34,3 +34,27 @@ a{
 		display: none !important;
 	}
 }
+.section-block{
+	.title{
+		font-weight: 500;
+		font-size: 46px;
+		line-height: 57px;
+		letter-spacing: 0.2px;
+		color: #3E454C;
+		@media (max-width: 767px){
+			font-size: 28px;
+			line-height: 33px;
+		}
+	}
+	.subtitle{
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 27px;
+		letter-spacing: 0.2px;
+		color: #687582;
+		@media (max-width: 767px){
+			font-size: 14px;
+			line-height: 22px
+		}
+	}
+}
