@@ -143,7 +143,7 @@ button{
 		border-radius: 26px;
 	    border: 0;
 	    padding: 18px 20px;
-	    font-weight: bold;
+	    font-weight: 700;
 		font-size: 13px;
 		line-height: 16px;
 		letter-spacing: 2.5px;
@@ -175,7 +175,7 @@ button{
 			color: #FF5F7A;
 			width: 210px;
 	    	margin-left: 3em;
-	    	background: transparent;
+	    	background: #fff;
 			&:hover{
 				color: #FFF;
 				border: 2px solid #FF5F7A;
@@ -183,7 +183,8 @@ button{
 			}
 			@media (max-width: 767px){
 				width: 180px;
-				margin-left: 2em;
+		    	background: transparent;
+		    	margin-left: 0;
 			}
 		}
 	}

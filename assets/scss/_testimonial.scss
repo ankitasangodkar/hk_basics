@@ -1,5 +1,10 @@
 .testimonials{
 	.testimonials-cards{
+		.testimonial-containter{
+			@media (min-width: 1360px){
+			    max-width: 1360px;
+			}
+		}
 		.testimonials-slider{
 			margin: auto;
     		justify-content: center;

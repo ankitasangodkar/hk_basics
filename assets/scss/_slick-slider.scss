@@ -306,13 +306,15 @@
 				margin-left: 10px;
 				margin-bottom: 0;
 			    white-space: nowrap;
-			    @media(max-width: 767px){
-			    	font-weight: 300;
-					font-size: 14px;
-					line-height: 48px;
-					letter-spacing: 0.2px;
-					color: #3E454C;
-					margin-right: 10px;
+			    &-nutrients{
+				    @media(max-width: 767px){
+				    	font-weight: 300;
+						font-size: 14px;
+						line-height: 48px;
+						letter-spacing: 0.2px;
+						color: #3E454C;
+						margin-right: 10px;
+				    }
 			    }
 			}
 			@media(max-width: 767px){
@@ -368,7 +370,7 @@
  		}
 	}
 	&:after, &:before{
-		@media (max-width: 767px){
+		@media (max-width: 991px){
 			display: none;
 		}
 	}
