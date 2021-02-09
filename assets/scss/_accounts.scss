@@ -1,0 +1,214 @@
+.accounts{
+	text-align: center;
+	display: block;
+	ul.nav-tabs{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 88px;
+	    border-bottom: 1px solid #DDDDDD;
+		li{
+			margin-top: 30px;
+			a{
+				padding: 0 16px;
+				font-weight: 600;
+				font-size: 14px;
+				line-height: 17px;
+				&.active{
+					&:after{
+						bottom: -19px;
+					}
+				}
+			}
+		}
+	}
+	.tab-content{
+		margin: 50px 0px;
+		.tab-pane{
+			max-width: 375px;
+			width: auto;
+			margin: 0 auto;
+			text-align: left;
+			.header{
+				font-weight: 500;
+				font-size: 28px;
+				line-height: 33px;
+				letter-spacing: 0.2px;
+				color: #000000;
+			}
+			.subheader{
+				font-weight: 500;
+				font-size: 18px;
+				line-height: 27px;
+				letter-spacing: 0.1px;
+				color: #3E454C;
+				margin-bottom: 0;
+		        background: transparent;
+    			box-shadow: none;
+			}
+			.form{
+				margin: 26px 0;
+				&-field{
+					margin-bottom: 32px;
+				}
+				.label{
+					font-weight: normal;
+					font-size: 15px;
+					line-height: 18px;
+					letter-spacing: 0.1px;
+					color: #000000;
+					margin-bottom: 12px;
+				}
+				.password-link{
+					font-weight: bold;
+					font-size: 15px;
+					line-height: 22px;
+					letter-spacing: 0.2px;
+					text-decoration-line: underline;
+					color: #07A5B5;
+					margin-bottom: 12px;
+				}
+				&-control{
+					border: 1px solid #D0D0D0;
+					box-sizing: border-box;
+					border-radius: 26px;
+					font-size: 15px;
+					line-height: 24px;
+					letter-spacing: 0.2px;
+					color: #3E454C;
+					padding: 14px 28px;
+				}
+				.select{
+					font-weight: 400;
+					font-size: 15px;
+					line-height: 18px;
+					letter-spacing: 0.1px;
+					color: #3E454C;
+				}
+				.view-btn{
+					button{
+						width: 100%;
+					}
+				}
+				.radio-group {
+					label {
+				 		overflow: hidden;
+					    background: #F5FEFF;
+					    border: 1px solid #07A5B5;
+					    border-radius: 44px;
+					    font-weight: 600;
+					    font-size: 14px;
+					    line-height: 17px;
+					    display: flex;
+					    align-items: center;
+					    color: #07A5B5;
+					    margin-right: 12px;
+				        padding: 10px 15px;
+					}
+					input {
+						height: 1px;
+						width: 1px;
+						position: absolute;
+						top: -20px;
+
+					}
+				 	.not-active {
+						font-weight: 600;
+						font-size: 14px;
+						line-height: 17px;
+						background: #F5FEFF;
+						border: 1px solid #DDDDDD;
+						border-radius: 44px;
+						color: #3E454C;
+					}
+				}
+			}
+			.address-block{
+				background: #FFFFFF;
+				border: 1px solid #DDDDDD;
+				box-sizing: border-box;
+				border-radius: 12px;
+				padding: 20px 30px;
+			    margin-bottom: 16px;
+			    .name{
+					font-weight: 500;
+					font-size: 15px;
+					line-height: 18px;
+					letter-spacing: 0.1px;
+					color: #3E454C;
+			    }
+			    .address-text{
+					font-size: 15px;
+					line-height: 24px;
+					letter-spacing: 0.2px;
+					color: #3E454C;
+					margin-bottom: 0;
+			    }
+			    .btn-default{
+					font-weight: bold;
+					font-size: 13px;
+					line-height: 16px;
+					letter-spacing: 2.5px;
+					text-transform: uppercase;
+					color: #07A5B5;
+				    margin: 30px 0;
+				    background: transparent;
+				    border: 0;
+				    cursor: pointer;
+			    }
+			    .btn-group{
+			    	border-top: 1px solid #DDDDDD;
+			    	width: 100%;
+			    	button{
+						border: 0;
+						background: transparent;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						width: 100%;
+						padding: 16px 0;
+					    border-right: 1px solid #DDDDDD;
+					    font-weight: bold;
+						font-size: 13px;
+						line-height: 16px;
+						letter-spacing: 2.5px;
+						text-transform: uppercase;
+						color: #3E454C;
+						&.active{
+							color: #07A5B5;
+						}
+			    	}
+			    }
+			    &.default-block{
+				    padding: 20px 0 0 0;
+				    .name, .address-text{
+				    	padding: 0 30px;
+				    }
+			    }
+			}
+			.add-address-btn{
+				button{
+					background: #FFFFFF;
+					border: 2px solid #DDDDDD;
+					box-sizing: border-box;
+					border-radius: 26px;
+					width: 100%;
+				    padding: 18px 0;
+			        margin-top: 12px;
+			        font-weight: bold;
+					font-size: 13px;
+					line-height: 16px;
+					letter-spacing: 2.5px;
+					text-transform: uppercase;
+					color: #07A5B5;
+				    transition: all 0.5s ease;
+					&:hover{
+						background-color: #07A5B5;
+						border: 2px solid #07A5B5;
+						color: white;
+					}
+				}
+			}
+		}
+	}
+}
