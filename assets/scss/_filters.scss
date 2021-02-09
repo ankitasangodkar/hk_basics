@@ -118,6 +118,10 @@
                 line-height: 48px;
                 letter-spacing: 0.2px;
                 color: #000000;
+                @media (max-width: 767px){
+                    width: auto;
+                    padding: 0 16px;
+                }
             }
         }
     }
