@@ -47,16 +47,20 @@
 			position: absolute;
 			right: 0;
 			top: 15px;
-			@media (max-width: 767px){
-				&.orange{
+			&.orange{
+				@media (max-width: 767px){
 				    top: -18px;
 				    right: -2px;
-				}
-				&.red{
+			    }
+			}
+			&.red{
+				@media (max-width: 767px){
 			       	top: -9px;
-    				right: 1px;;
+    				right: 1px;
 				}
-				&.green{
+			}
+			&.green{
+				@media (max-width: 767px){
 				    top: -12px;
     				right: -12px;
 				}
