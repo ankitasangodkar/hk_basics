@@ -8,6 +8,7 @@
 	position: relative;
 	overflow: hidden;
 	z-index: 1;
+	padding: 0 18px;
 	.btn-text, .plus-icon{
 		font-weight: 500;
 		font-size: 20px;
@@ -16,6 +17,9 @@
 		color: #FF5F7A;
 	    background: transparent;
     	border: 0;
+	}
+	.plus-icon{
+		margin: 0 4px 0 0;
 	}
 	&:after {
 		content: '';
