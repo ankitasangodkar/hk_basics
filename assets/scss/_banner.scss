@@ -48,7 +48,18 @@
 			right: 0;
 			top: 15px;
 			@media (max-width: 767px){
-				top: -14px;
+				&.orange{
+				    top: -18px;
+				    right: -2px;
+				}
+				&.red{
+			       	top: -9px;
+    				right: 1px;;
+				}
+				&.green{
+				    top: -12px;
+    				right: -12px;
+				}
 			}
 		}
 		@media (max-width: 767px){
