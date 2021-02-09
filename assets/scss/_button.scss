@@ -122,6 +122,7 @@ button{
 		color: #FFFFFF;
 		transition: all 0.4s ease-in;
 		border: 1px solid #07A5B5;
+		cursor: pointer;
 		&:hover{
 			color: #07A5B5;
 			border: 1px solid #07A5B5;
@@ -151,6 +152,7 @@ button{
 		color: #07A5B5;
 		transition: all 0.4s ease-in;
 		border: 1px solid #07A5B5;
+		cursor: pointer;
 		.border-0{
 			border: 0;
 			&:hover{
