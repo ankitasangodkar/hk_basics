@@ -58,3 +58,8 @@ a{
 		}
 	}
 }
+.form-control{
+	&:focus{
+		box-shadow: none;
+	}
+}

@@ -123,7 +123,7 @@
 					}
 				}
 			}
-			.address-block{
+			.address-block, .default-block{
 				background: #FFFFFF;
 				border: 1px solid #DDDDDD;
 				box-sizing: border-box;
@@ -144,48 +144,69 @@
 					color: #3E454C;
 					margin-bottom: 0;
 			    }
-			    .btn-default{
-					font-weight: bold;
+			    .round{
+			    	label{
+			    		width: 20px;
+			    		height: 20px;
+			    		&:after{
+		    			    left: 4px;
+		    			    top: 5px;
+			    		}
+			    	}
+			    }
+			}
+			.default-block{
+				padding: 0;
+				background: #FFFFFF;
+				border: 1px solid #07A5B5;
+				box-shadow: 0px 4px 71px rgba(0, 0, 0, 0.1);
+				border-radius: 12px;
+				&-item{
+					padding: 20px 30px 0 30px;
+				}
+			}
+		    .btn-default{
+				font-weight: bold;
+				font-size: 13px;
+				line-height: 16px;
+				letter-spacing: 2.5px;
+				text-transform: uppercase;
+				color: #07A5B5;
+			    margin: 30px 0;
+			    background: transparent;
+			    border: 0;
+			    cursor: pointer;
+		    }
+		    .checkbox-group{
+		    	border-top: 1px solid #DDDDDD;
+		    	width: 100%;
+		    	button{
+					border: 0;
+					background: transparent;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					width: 100%;
+					padding: 16px 0;
+				    border-right: 1px solid #DDDDDD;
+				    font-weight: bold;
 					font-size: 13px;
 					line-height: 16px;
 					letter-spacing: 2.5px;
 					text-transform: uppercase;
-					color: #07A5B5;
-				    margin: 30px 0;
-				    background: transparent;
-				    border: 0;
-				    cursor: pointer;
-			    }
-			    .btn-group{
-			    	border-top: 1px solid #DDDDDD;
-			    	width: 100%;
-			    	button{
-						border: 0;
-						background: transparent;
-						display: flex;
-						align-items: center;
-						justify-content: center;
-						width: 100%;
-						padding: 16px 0;
-					    border-right: 1px solid #DDDDDD;
-					    font-weight: bold;
-						font-size: 13px;
-						line-height: 16px;
-						letter-spacing: 2.5px;
-						text-transform: uppercase;
-						color: #3E454C;
-						&.active{
-							color: #07A5B5;
-						}
-			    	}
-			    }
-			    &.default-block{
-				    padding: 20px 0 0 0;
-				    .name, .address-text{
-				    	padding: 0 30px;
-				    }
-			    }
-			}
+					color: #3E454C;
+					cursor: pointer;
+					&.active{
+						color: #07A5B5;
+					}
+		    	}
+		    }
+		    .radio-group{
+		    	border: 0;
+		    }
+		    .block-item{
+		    	padding-left: 15px;
+		    }
 			.add-address-btn{
 				button{
 					background: #FFFFFF;
