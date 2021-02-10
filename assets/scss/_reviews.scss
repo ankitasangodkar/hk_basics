@@ -72,20 +72,20 @@
 		}
 	}
 	.left-top-icon{
-		position: absolute;
-		left: -100px;
-		top: -60px;
-		width: 140px;
-		height: auto;
-		transform: rotate(-104deg);
+	    position: absolute;
+	    left: -85px;
+	    top: -40px;
+	    width: 140px;
+	    height: auto;
+	    transform: rotate(-104deg);
 	    @media (max-width: 1199px){
 		    left: -80px;
 	    }
 	}
 	.left-bottom-icon{
 	    position: absolute;
-	    left: -110px;
-	    bottom: -83px;
+	    left: -88px;
+	    bottom: -46px;
 	    width: 130px;
 	    height: auto;
 	    transform: rotate(10deg);
@@ -95,12 +95,15 @@
 	}
 	.right-bottom-icon{
 	    position: absolute;
-	    right: -40px;
-	    bottom: -70px;
+	    right: -30px;
+	    bottom: -30px;
 	    width: 140px;
 	    height: auto;
 	    @media (max-width: 1199px){
 		    right: -20px;
+	    }
+	    @media (max-width: 899px){
+	    	right: 0;
 	    }
 	}
 	.left-bottom-mob{
