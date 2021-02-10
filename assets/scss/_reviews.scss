@@ -94,6 +94,23 @@
 	    width: 180px;
 	    height: auto;
 	}
+	.left-bottom-mob{
+		position: absolute;
+		top: -30px;
+		left: -20px;
+	}
+	.right-top-mob{
+	    position: absolute;
+	    top: -60px;
+	    right: -10px;
+	    width: 175px
+	}
+	.right-bottom-mob{
+	    position: absolute;
+	    bottom: -34px;
+	    right: -15px;
+	    width: 100px;
+	}
 	@media (max-width: 991px){
 		width: 100%;
 	}
