@@ -4,7 +4,6 @@
 	  width: 1000px;
 	}
 	.slick-slide {
-	    margin: 30px 15px 0 0;
 	    &:focus{
 	    	outline: 0;
 	    }
@@ -113,6 +112,12 @@
 	}
 }
 .product-slider{
+	.slick-slide{
+		margin: 10px 5px 0 5px;
+		@media (min-width: 768px){
+ 			margin: 30px 15px 0 0;
+		}
+	}
 	.slick-list{
 		padding-left: 0 !important;
 	}
