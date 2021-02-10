@@ -25,10 +25,11 @@
 	.tab-content{
 		margin: 50px 0px;
 		.tab-pane{
-			max-width: 375px;
-			width: auto;
-			margin: 0 auto;
-			text-align: left;
+		    max-width: 400px;
+		    width: auto;
+		    margin: 0 auto;
+		    text-align: left;
+		    padding: 0 20px;
 			.header{
 				font-weight: 500;
 				font-size: 28px;
