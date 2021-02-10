@@ -75,24 +75,33 @@
 		position: absolute;
 		left: -100px;
 		top: -60px;
-		width: 180px;
+		width: 140px;
 		height: auto;
 		transform: rotate(-104deg);
+	    @media (max-width: 1199px){
+		    left: -80px;
+	    }
 	}
 	.left-bottom-icon{
 	    position: absolute;
 	    left: -110px;
 	    bottom: -83px;
-	    width: 180px;
+	    width: 130px;
 	    height: auto;
 	    transform: rotate(10deg);
+	    @media (max-width: 1199px){
+		    left: -90px;
+	    }
 	}
 	.right-bottom-icon{
 	    position: absolute;
 	    right: -40px;
 	    bottom: -70px;
-	    width: 180px;
+	    width: 140px;
 	    height: auto;
+	    @media (max-width: 1199px){
+		    right: -20px;
+	    }
 	}
 	.left-bottom-mob{
 		position: absolute;
