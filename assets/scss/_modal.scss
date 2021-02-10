@@ -1,0 +1,77 @@
+.modal-dialog{
+	width: 411px;
+	height: 520px;
+	background: #FFFFFF;
+	border-radius: 24px;
+    overflow: auto;
+	.modal{
+		&-content{
+			border: 0;
+    		border-radius: 24px;
+    		padding: 24px 24px 0;
+		}
+		&-header{
+			padding: 0px;
+			align-items: center;
+			border-bottom: 0;
+			padding-bottom: 0;
+			.modal-title{
+				font-weight: 500;
+				font-size: 22px;
+				line-height: 28px;
+				letter-spacing: 0.1px;
+				color: #3E454C;
+			}
+			.close{
+				opacity: 1;
+				span{
+					color: #000;
+					font-weight: 400;
+					font-size: 26px;
+					margin: 0;
+				}
+			}
+		}
+		&-body{
+			padding: 0;
+			.location{
+				font-weight: 500;
+				font-size: 20px;
+				line-height: 48px;
+				letter-spacing: 0.2px;
+				color: #07A5B5;
+				position: relative;
+    			padding-left: 20px;
+    			margin-top: 20px;
+				&:after{
+					content:'\f041';
+					font-family: 'FontAwesome';
+					font-size: 20px;
+					position: absolute;
+					left: 0;				
+				}
+			}
+			.form{
+				.form-field{
+					margin-bottom: 20px;
+				}
+			}
+		}
+		&-footer{
+		    border-top: 0;
+		    padding: 0;
+		    position: sticky;
+		    bottom: 0px;
+		    left: 0;
+		    right: 0;
+		    background: white;
+		    padding: 10px 0 24px;
+		    button{
+		    	width: 100%;
+		    }
+		}
+	}
+	&::-webkit-scrollbar {
+    	display: none;
+	}
+}

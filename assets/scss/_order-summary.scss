@@ -1,0 +1,216 @@
+#rewards{
+	max-width: 100%;
+	.back-arrow{
+	    display: flex;
+    	align-items: center;
+    	justify-content: flex-start;
+		.fa-arrow-left{
+			color: #07A5B5;
+		}
+		.back{
+			font-weight: 500;
+			font-size: 20px;
+			line-height: 48px;
+			letter-spacing: 0.2px;
+			color: #07A5B5;
+		}
+	}
+	.product-info{
+		span{
+			font-weight: 400;
+			font-size: 15px;
+			line-height: 24px;
+			letter-spacing: 0.2px;
+			color: #687582;
+			margin: 0;
+		}
+		.order{
+			&-number, &-date{
+				font-weight: 400;
+				font-size: 15px;
+				line-height: 24px;
+				letter-spacing: 0.2px;
+				color: #3E454C;
+				margin-bottom: 0;
+			}
+		}
+		&.border-right-color{
+			border-right: 1px solid #DDDDDD;
+    		padding-right: 15px;
+    		margin-right: 15px;
+		}
+	}
+	.link{
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 48px;
+		letter-spacing: 0.2px;
+		color: #07A5B5;
+	}
+	.content-divider{
+		border-bottom: 4px solid #DDDDDD;
+	    margin: 10px 0 24px 0;
+	}
+	.track-order{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 50px;
+		&-details{
+			display: flex;
+			flex-direction: column;
+			.order{
+				font-family: 'Montserrat', sans-serif;
+				font-weight: 600;
+				font-size: 14px;
+				line-height: 17px;
+				letter-spacing: 0.1px;
+				position: relative;
+				&-placed{
+					color: #3E454C;
+					&:after{
+						content:'';
+					    background: #3E454C;
+					    width: 8px;
+					    height: 8px;
+					    border-radius: 10px;
+					    position: absolute;
+					    left: -20px;
+					    top: 4px;
+					}
+				}
+				&-processing{
+					color: #687582;
+						&:after{
+							content:'';
+						    background: #07A5B5;
+						    width: 8px;
+						    height: 8px;
+						    border-radius: 10px;
+						    position: absolute;
+						    left: -20px;
+						    top: 4px;
+						}
+				}
+			}
+			.date{
+				font-weight: 400;
+				font-size: 12px;
+				line-height: 14px;
+				color: #3E454C;
+			    margin-top: 4px;
+			}
+		}
+	}
+	.seperator{
+		width: 100px;
+		margin-right: 50px;
+	}
+	.product-order-item{
+	    display: flex;
+    	align-items: center;
+    	margin-bottom: 45px;
+		img{
+			width: 69px;
+			height: auto;
+			object-fit: contain;
+		}
+		.item-details{
+			padding-left: 25px;
+			.name{
+				font-weight: 500;
+				font-size: 24px;
+				line-height: 28px;
+				letter-spacing: 0.2px;
+				color: #3E454C;
+				margin-bottom: 0;
+			}
+			.description{
+				font-weight: normal;
+				font-size: 12px;
+				line-height: 15px;
+				color: #687582;
+				font-family: 'Montserrat', sans-serif;
+				margin-bottom: 5px;
+			}
+			.price{	
+				font-weight: 500;
+				font-size: 18px;
+				line-height: 27px;
+				letter-spacing: 0.1px;
+				margin-bottom: 0;
+			}
+		}
+	}
+	.block{
+		&-header{
+			font-weight: 500;
+			font-size: 22px;
+			line-height: 28px;
+			letter-spacing: 0.1px;
+			color: #3E454C;
+		}
+		&-content{
+			font-weight: 300;
+			font-size: 14px;
+			line-height: 22px;
+			color: #3E454C;
+		    width: 180px;
+		}
+	}
+	.order-summary{
+		h5{
+			font-weight: 500;
+			font-size: 18px;
+			line-height: 27px;
+			letter-spacing: 0.1px;
+			color: #3E454C;
+			padding-top: 7px;
+			margin-bottom: 10px;
+		}
+		.value{
+			font-weight: 300;
+			font-size: 15px;
+			line-height: 30px;
+			letter-spacing: 0.2px;
+			color: #3E454C;
+			margin-bottom: 0;
+		}
+		.divider{
+			border-bottom: 2px solid #DDDDDD;
+			margin: 15px 0;
+		}
+		.summary{
+			&-text{
+				font-weight: 400;
+				font-size: 15px;
+				line-height: 24px;
+				letter-spacing: 0.2px;
+				color: #3E454C;
+				margin-bottom: 7px;
+			}
+			&-amount{
+				font-weight: 500;
+				font-size: 18px;
+				line-height: 27px;
+				text-align: right;
+				letter-spacing: 0.1px;
+				color: #3E454C;
+				margin-bottom: 8px;
+			}
+			&-saving{
+				font-weight: 400;
+				font-size: 15px;
+				line-height: 24px;
+				letter-spacing: 0.2px;
+				color: #20B038;
+			}
+		}
+		.action-block{
+			button{
+				border: 2px solid #DDDDDD;
+				width: 100%;
+			}
+		}
+	}
+}
