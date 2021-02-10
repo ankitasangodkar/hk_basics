@@ -61,20 +61,20 @@
 			top: 15px;
 			&.orange{
 				@media (max-width: 767px){
-				    top: -18px;
-				    right: -2px;
+				    top: 20px;
+				    right: 0;
 			    }
 			}
 			&.red{
 				@media (max-width: 767px){
-			       	top: -9px;
-    				right: 1px;
+				    top: 20px;
+				    right: 0;
 				}
 			}
 			&.green{
 				@media (max-width: 767px){
-				    top: -12px;
-    				right: -12px;
+				    top: 20px;
+				    right: 0;
 				}
 			}
 		}
