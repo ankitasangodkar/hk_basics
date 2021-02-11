@@ -24,6 +24,8 @@
    <!-- slick slider -->
    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
+
+
    <!-- Template Main CSS File -->
    <link href="assets/css/bootstrap/bootstrap.css" rel="stylesheet">
    <link href="assets/css/theme-styles.css" rel="stylesheet">
@@ -38,7 +40,7 @@
                 <li role="presentation" class="active">
                     <a href="#profile" aria-controls="profile" role="tab" class="active show" data-toggle="tab">My Profile</a>
                 </li>
-                <li role="presentation">
+                <li role="presentation" class="deskMode">
                     <a href="#address" aria-controls="address" role="tab" data-toggle="tab">My Addresses</a>
                 </li>
                 <li role="presentation">
@@ -52,7 +54,7 @@
             <!-- Tab panes -->
             <div class="tab-content">
                 <div role="tabpanel" class="tab-pane active" id="profile">
-                    <h2 class="header">Profile</h2>
+                    <h2 class="header">My Profile</h2>
                     <div class="form">
                         <div class="name form-field">
                             <p class="label">Name</p>
@@ -60,11 +62,11 @@
                         </div>
                         <div class="number form-field">
                             <p class="label">Mobile</p>
-                            <input class="form-control" type="text" placeholder="Name" value="9989897878">
+                            <input class="form-control" type="tel" placeholder="Name" value="9989897878">
                         </div>
                         <div class="email form-field">
                             <p class="label">Email</p>
-                            <input class="form-control" type="text" placeholder="Name" value="example@gmail.com">
+                            <input class="form-control" type="email" placeholder="Name" value="example@gmail.com">
                         </div>
                         <div class="gender form-field">
                             <p class="select">Select Gender</p>
@@ -79,15 +81,12 @@
                                 <p class="label">Password</p>
                                 <a href="#" class="password-link">Change Password</a>
                             </div>
-                            <input class="form-control" type="text" placeholder="Name" value="example@gmail.com">
+                            <input class="form-control" type="password" placeholder="Name" value="password">
                         </div>
                         <div class="view-btn">
                             <button class="btn-text">Save changes</button>
                         </div>
                     </div>
-                </div>
-                <div role="tabpanel" class="tab-pane" id="address">
-                    <h2 class="header">My Addresses</h2>
                     <div>
                         <!-- Button trigger modal -->
                         <div  class="add-address-btn">
@@ -95,11 +94,11 @@
                         </div>
 
                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Add Address</h5>
+                                        <h5 class="modal-title" id="exampleModalLabel1W">Add Address</h5>
                                         <a class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </a>
@@ -108,7 +107,7 @@
                                         <div class="d-flex">
                                             <a href="" class="location">Use Current Location</a>
                                         </div>
-                                        <div class="form">
+                                        <div class="form mt-0">
                                             <div class="name form-field">
                                                 <p class="label">Full Name</p>
                                                 <input class="form-control" type="text">
@@ -138,7 +137,127 @@
                     <div class="address-block">
                         <div class="d-flex align-items-start">
                             <div class="round">
-                                <input type="checkbox" id="checkbox1" />
+                                <input type="checkbox" id="checkbox1" checked="checked" />
+                                <label for="checkbox1"></label>
+                            </div>
+                            <div class="block-item">
+                                <h6 class="name">John Doe</h6>
+                                <p class="address-text">A642 Sushant lok, block A, GURGAON,
+                                    HARYANA - 122002
+                                    Ph: 7428874755
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <h5 class="subheader mb-2">Other Address</h5>
+                    <div class="address-block">
+                        <div class="d-flex align-items-start">
+                            <div class="round">
+                                <input type="checkbox" id="checkbox2" />
+                                <label for="checkbox2"></label>
+                            </div>
+                            <div  class="block-item">
+                                <h6 class="name">John Doe</h6>
+                                <p class="address-text">A642 Sushant lok, block A, GURGAON,
+                                    HARYANA - 122002
+                                    Ph: 7428874755
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="default-block">
+                        <div class="default-block-item">
+                            <div class="d-flex align-items-start">
+                                <div class="round">
+                                    <input type="checkbox" id="checkbox3" />
+                                    <label for="checkbox3"></label>
+                                </div>
+                                <div  class="block-item">
+                                    <h6 class="name">John Doe</h6>
+                                    <p class="address-text">A642 Sushant lok, block A, GURGAON,
+                                        HARYANA - 122002
+                                        Ph: 7428874755
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <button class="btn-default">Make default</button>
+                            </div>
+                        </div>
+                        <div class="btn-group checkbox-group">
+                            <button class="active">Edit</button>
+                            <button>Remove</button>
+                        </div>
+                    </div>
+                    <div class="address-block">
+                        <div class="d-flex align-items-start">
+                            <div class="round">
+                                <input type="checkbox" id="checkbox4" />
+                                <label for="checkbox4"></label>
+                            </div>
+                            <div  class="block-item">
+                                <h6 class="name">John Doe</h6>
+                                <p class="address-text">A642 Sushant lok, block A, GURGAON,
+                                    HARYANA - 122002
+                                    Ph: 7428874755
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane deskMode" id="address">
+                    <h2 class="header">My Addresses</h2>
+                    <div>
+                        <!-- Button trigger modal -->
+                        <div  class="add-address-btn">
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">add new address</button>
+                        </div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Add Address</h5>
+                                        <a class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </a>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="d-flex">
+                                            <a href="" class="location">Use Current Location</a>
+                                        </div>
+                                        <div class="form mt-0">
+                                            <div class="name form-field">
+                                                <p class="label">Full Name</p>
+                                                <input class="form-control" type="text">
+                                            </div>
+                                            <div class="number form-field">
+                                                <p class="label">Mobile</p>
+                                                <input class="form-control" type="text">
+                                            </div>
+                                            <div class="address form-field">
+                                                <p class="label">Address</p>
+                                                <input class="form-control" type="text">
+                                            </div>
+                                            <div class="landmark form-field">
+                                                <p class="label">Landmark</p>
+                                                <input class="form-control" type="text">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer view-btn mt-0">
+                                        <button type="button" class="btn">Add</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h5 class="subheader">Default</h5>
+                    <div class="address-block">
+                        <div class="d-flex align-items-start">
+                            <div class="round">
+                                <input type="checkbox" id="checkbox1" checked="checked" />
                                 <label for="checkbox1"></label>
                             </div>
                             <div class="block-item">
@@ -216,9 +335,10 @@
                                 <div class="item-details">
                                     <h4 class="name">Salmon 0mega-3</h4>
                                     <p class="count">4 Items</p>
+                                     <p class="price">₹2,938</p>
                                 </div>
                             </div>
-                            <div class="product-order-price">
+                            <div class="product-order-price deskMode">
                                 <p class="price">₹2,938</p>
                             </div>
                             <div class="product-order-status">
@@ -232,9 +352,10 @@
                                 <div class="item-details">
                                     <h4 class="name">Salmon 0mega-3</h4>
                                     <p class="count">4 Items</p>
+                                    <p class="price mobileMode">₹2,938</p>
                                 </div>
                             </div>
-                            <div class="product-order-price">
+                            <div class="product-order-price deskMode">
                                 <p class="price">₹2,938</p>
                             </div>
                             <div class="product-order-status">
@@ -248,9 +369,10 @@
                                 <div class="item-details">
                                     <h4 class="name">Salmon 0mega-3</h4>
                                     <p class="count">4 Items</p>
+                                    <p class="price mobileMode">₹2,938</p>
                                 </div>
                             </div>
-                            <div class="product-order-price">
+                            <div class="product-order-price deskMode">
                                 <p class="price">₹2,938</p>
                             </div>
                             <div class="product-order-status">
@@ -321,17 +443,17 @@
                             <div class="col-md-5 col-sm-12">
                                 <div class="block">
                                     <h4 class="block-header">Address</h4>
-                                    <p class="block-content">John Doe
-                                        A563 , Sector 44, HARYANA
-                                        GURGAON,
-                                        HARYANA - 122002
+                                    <p class="block-content">John Doe<br>
+                                        A563 , Sector 44, HARYANA<br>
+                                        GURGAON,<br>
+                                        HARYANA - 122002<br>
                                         7428874755
                                     </p>
                                 </div>
                                 <div class="content-divider"></div>
                                 <div class="order-summary">
                                     <h4 class="block-header">Order Summary</h4>
-                                    <h5>Order Total</h5>
+                                    <h5 class="title">Order Total</h5>
                                     <div class="order-details">
                                         <div class="d-flex align-items-center justify-content-between">
                                             <p class="value">MRP</p>
@@ -357,8 +479,108 @@
                                         <p class="summary-saving text-right">Total Saving: ₹200</p>
                                         <p class="summary-text">Payment Mode: COD</p>
                                     </div>
-                                    <div class="action-block mt-5 text-center">
-                                        <button class="btn-text">Return or replace items</button>
+                                    <div class="action-block"> 
+                                        <button type="button" class="btn-text" data-toggle="modal" data-target="#repalce-return"> Return or replace items </button> 
+                                    </div> 
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="repalce-return" tabindex="-1" role="dialog" aria-labelledby="returnproduct" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header border-bottom-color">
+                                                    <h5 class="modal-title" id="returnproduct">Return or Replace items</h5> 
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div id="smartwizard">
+                                                        <div>
+                                                            <div id="step-1">
+                                                                <div class="product-order-item product-order-item--select">
+                                                                    <div class="sqaure">
+                                                                        <input type="checkbox" id="checkbox1" checked="checked" />
+                                                                        <label for="checkbox1"></label>
+                                                                    </div>
+                                                                    <img src="assets/images/product-img.png">
+                                                                    <div class="item-details">
+                                                                        <h4 class="name">Salmon 0mega-3</h4>
+                                                                        <p class="description">30 Softgels Tablets</p>
+                                                                        <p class="price">₹2,938</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="product-order-item product-order-item--select">
+                                                                    <div class="sqaure">
+                                                                        <input type="checkbox" id="checkbox1" checked="checked" />
+                                                                        <label for="checkbox1"></label>
+                                                                    </div
+                                                                    <img src="assets/images/product-img.png">
+                                                                    <div class="item-details">
+                                                                        <h4 class="name">Salmon 0mega-3</h4>
+                                                                        <p class="description">30 Softgels Tablets</p>
+                                                                        <p class="price">₹2,938</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="product-order-item product-order-item--select">
+                                                                    <div class="sqaure">
+                                                                        <input type="checkbox" id="checkbox1" checked="checked" />
+                                                                        <label for="checkbox1"></label>
+                                                                    </div
+                                                                    <img src="assets/images/product-img.png">
+                                                                    <div class="item-details">
+                                                                        <h4 class="name">Salmon 0mega-3</h4>
+                                                                        <p class="description">30 Softgels Tablets</p>
+                                                                        <p class="price">₹2,938</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div id="step-2" class="d-none">
+                                                                <h5>Step 2. Select reason</h5>
+                                                                <p class="info">1.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet</p>
+                                                                <div class="reason-list">
+                                                                    <div class="item d-block">
+                                                                        <input type="radio" id="one" name="radio-group" checked>
+                                                                        <label for="one">Reason number 1</label>
+                                                                    </div>
+                                                                    <div class="item d-block">
+                                                                        <input type="radio" id="two" name="radio-group">
+                                                                        <label for="two">Reason number 2</label>
+                                                                    </div>
+                                                                    <div class="item d-block">
+                                                                        <input type="radio" id="three" name="radio-group">
+                                                                        <label for="three">Reason number 3</label>
+                                                                    </div>
+                                                                    <div class="item d-block">
+                                                                        <input type="radio" id="four" name="radio-group">
+                                                                        <label for="four">Reason number 4</label>
+                                                                    </div>
+                                                                    <div class="item d-block">
+                                                                        <input type="radio" id="five" name="radio-group">
+                                                                        <label for="five">Reason number 5</label>
+                                                                    </div>
+                                                                    <div class="item d-block">
+                                                                        <input type="radio" id="six" name="radio-group">
+                                                                        <label for="six">Reason number 6</label>
+                                                                    </div>
+                                                                    <div class="item d-block">
+                                                                        <input type="radio" id="seven" name="radio-group">
+                                                                        <label for="seven">Reason number 7</label>
+                                                                    </div>
+                                                                    <div class="item d-block">
+                                                                        <input type="radio" id="eight" name="radio-group">
+                                                                        <label for="eight">Reason number 8</label>
+                                                                    </div>
+                                                                    <div class="item d-block">
+                                                                        <input type="radio" id="nine" name="radio-group">
+                                                                        <label for="nine">Reason number 9</label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div id="nextbtn" class="modal-footer view-btn mt-0">
+                                                                <button type="button" class="btn">Next</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -372,6 +594,7 @@
     <!-- External JS Files -->
     <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
 
     <!-- Template Main JS File -->
     <script src="assets/js/theme-scripts.js"></script>

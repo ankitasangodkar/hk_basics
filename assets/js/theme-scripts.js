@@ -176,3 +176,8 @@ $('.nav-tabs-dropdown')
 $('.radio-group label').on('click', function(){
   $(this).removeClass('not-active').siblings().addClass('not-active');
 });
+
+$('#nextbtn').on('click', function(){
+  $('#step-1').addClass('d-none');
+  $('#step-2').removeClass('d-none').addClass('d-block');
+});

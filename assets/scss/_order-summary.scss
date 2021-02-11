@@ -139,7 +139,15 @@
 				line-height: 27px;
 				letter-spacing: 0.1px;
 				margin-bottom: 0;
+				color: #3E454C;
 			}
+		}
+		&--select{
+			background: #FFFFFF;
+			border: 1px solid rgba(0, 0, 0, 0.1);
+			border-radius: 13px;
+		    padding: 18px 15px;
+	        margin-bottom: 18px;
 		}
 	}
 	.block{
@@ -155,11 +163,10 @@
 			font-size: 14px;
 			line-height: 22px;
 			color: #3E454C;
-		    width: 180px;
 		}
 	}
 	.order-summary{
-		h5{
+		.title{
 			font-weight: 500;
 			font-size: 18px;
 			line-height: 27px;
@@ -210,6 +217,29 @@
 			button{
 				border: 2px solid #DDDDDD;
 				width: 100%;
+			}
+		}
+		.info{
+			font-weight: 300;
+			font-size: 14px;
+			line-height: 22px;
+			color: #3E454C;
+		}
+		.reason-list{
+			border: 1px solid #DDDDDD;
+			border-radius: 12px;
+			.item{
+			    border-bottom: 1px solid #DDDDDD;
+			    padding: 15px 20px 5px;
+			    label{
+			    	font-family: 'Montserrat', sans-serif;
+			    	font-weight: 500;
+					font-size: 15px;
+					line-height: 18px;
+					letter-spacing: 0.1px;
+					color: #000000;
+					margin-left: 18px;
+			    }
 			}
 		}
 	}
