@@ -32,6 +32,9 @@
 				letter-spacing: 0.2px;
 				color: #3E454C;
 				margin-bottom: 0;
+			    @media (max-width: 767px){
+		    	    white-space: nowrap;
+			    }
 			}
 		}
 		&.border-right-color{
@@ -50,6 +53,9 @@
 	.content-divider{
 		border-bottom: 4px solid #DDDDDD;
 	    margin: 10px 0 24px 0;
+	    @media(max-width: 767px){
+    	    margin: 30px -22px;
+	    }
 	}
 	.track-order{
 		display: flex;
@@ -66,6 +72,7 @@
 				line-height: 17px;
 				letter-spacing: 0.1px;
 				position: relative;
+				white-space: nowrap;
 				&-placed{
 					color: #3E454C;
 					&:after{
@@ -148,6 +155,25 @@
 			border-radius: 13px;
 		    padding: 18px 15px;
 	        margin-bottom: 18px;
+	        .item-details{
+		        .name{
+		        	@media(max-width: 767px){
+		        		font-size: 18px;
+						line-height: 27px;
+					}
+		        }
+		        .price{
+		        	@media(max-width: 767px){
+		        		margin-top: 15px;
+					}
+		        }
+	        }
+	        &.active{
+				background: #F5FEFF;
+				border: 1px solid #07A5B5;
+				box-sizing: border-box;
+				border-radius: 12px;
+	        }
 		}
 	}
 	.block{
@@ -217,6 +243,10 @@
 			button{
 				border: 2px solid #DDDDDD;
 				width: 100%;
+			    white-space: nowrap;
+			    @media (max-width: 767px){
+			    	margin-top: 40px;
+			    }
 			}
 		}
 		.info{
@@ -230,7 +260,7 @@
 			border-radius: 12px;
 			.item{
 			    border-bottom: 1px solid #DDDDDD;
-			    padding: 15px 20px 5px;
+			    padding: 16px 0 16px 16px;
 			    label{
 			    	font-family: 'Montserrat', sans-serif;
 			    	font-weight: 500;
@@ -238,9 +268,17 @@
 					line-height: 18px;
 					letter-spacing: 0.1px;
 					color: #000000;
-					margin-left: 18px;
+				    margin-bottom: 0;
+    				margin-left: 6px;
+			    }
+			    &.active{
+			    	border: 1px solid #07A5B5;
+					background: #F5FEFF
 			    }
 			}
 		}
+	}
+	@media (max-width: 767px){
+		padding: 0;
 	}
 }

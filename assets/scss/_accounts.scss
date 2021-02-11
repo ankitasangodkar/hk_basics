@@ -19,6 +19,9 @@
 						bottom: -19px;
 					}
 				}
+				@media (max-width: 767px){
+					padding: 0 12px;
+				}
 			}
 		}
 	}
@@ -201,6 +204,38 @@
 						color: #07A5B5;
 					}
 		    	}
+		    	.view-btn{
+					margin-top: 40px;
+					button{
+					    background: #07A5B5;
+						box-shadow: 0px 4px 71px rgba(0, 0, 0, 0.1);
+						border-radius: 26px;
+					    border: 0;
+					    padding: 17px 20px;
+					    font-weight: bold;
+						font-size: 13px;
+						line-height: 16px;
+						letter-spacing: 2.5px;
+						text-transform: uppercase;
+						color: #FFFFFF;
+						transition: all 0.4s ease-in;
+						border: 1px solid #07A5B5;
+						cursor: pointer;
+						border-top-left-radius: 24px !important;
+						border-bottom-left-radius: 24px !important;
+						&:hover{
+							color: #07A5B5;
+							border: 1px solid #07A5B5;
+							background-color: white;
+						}
+						@media (max-width: 767px){
+							padding: 14px 20px;
+						}
+					}
+					@media (max-width: 767px){
+						text-align: center;
+					}
+				}
 		    }
 		    .radio-group{
 		    	border: 0;
