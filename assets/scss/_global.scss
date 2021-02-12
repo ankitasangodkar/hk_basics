@@ -53,6 +53,7 @@ a{
 		letter-spacing: 0.2px;
 		color: #687582;
 		@media (max-width: 767px){
+			font-weight: 300;
 			font-size: 14px;
 			line-height: 22px
 		}
@@ -61,5 +62,11 @@ a{
 .form-control{
 	&:focus{
 		box-shadow: none;
+	}
+}
+.section-reversed{
+	@media(max-width: 767px){
+		display: flex;
+		flex-direction: column-reverse;
 	}
 }
