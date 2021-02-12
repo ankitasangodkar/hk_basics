@@ -1,4 +1,5 @@
 .testimonials{
+	margin-bottom: 70px;
 	.testimonials-cards{
 		.testimonial-containter{
 			@media (min-width: 1360px){
@@ -108,5 +109,8 @@
 				}
 			}
 		}
+	}
+	@media (max-width: 767px){
+		margin-bottom: 0;
 	}
 }

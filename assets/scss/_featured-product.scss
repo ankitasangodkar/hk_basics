@@ -1,6 +1,7 @@
 .featured-product{
 	background: #FFFAEF;
 	padding: 80px 0;
+	margin: 70px 0;
 	.featured-img{
 		@media(max-width: 767px){
 			width: 100%;
@@ -108,5 +109,7 @@
 		margin: 0 15px;
 		border-radius: 24px;
 		background: #FFF3EA;
+		margin-top: 70px;
+		margin-bottom: 22px;
 	}
 }
