@@ -1,15 +1,19 @@
 .hk-basics-pillar{
 	.info-block{
 		text-align: center;
+		background: white;
+		box-shadow: none;
 		.title{
 			font-weight: 500;
 			font-size: 36px;
 			line-height: 57px;
 			letter-spacing: 0.2px;
 			color: #3E454C;
+			margin-bottom:10px;
 			@media (max-width: 767px){
 				font-size: 28px;
 				line-height: 33px;
+				margin-bottom: 20px;
 			}
 		}
 		.sub-title{

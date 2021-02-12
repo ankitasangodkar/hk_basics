@@ -69,11 +69,10 @@ $('.product-tag-slider').slick({
     {
       breakpoint: 767,
       settings: {
-        slidesToScroll: 3,
-        slidesToShow: 3,
+        slidesToScroll: 1,
+        slidesToShow: 4,
         arrows: false,
         dots: true,
-        centerMode: true,
         centerPadding: '60px',
         variableWidth: true,
     }
