@@ -128,11 +128,7 @@ $('.articles-slider').slick({
         arrows: false,
         dots: true,
     }
-  },
-  {
-    breakpoint: 2500,
-    settings: "unslick"
-  },
+  }
   ]
 });
 
@@ -170,6 +166,30 @@ $('.testimonials-slider').slick({
   }
   ]
 });
+
+$('.tag-slider').slick({
+  slidesToShow: 8,
+  slidesToScroll: 2,
+  responsive: [
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToScroll: 4,
+        slidesToShow: 1,
+        arrows: false,
+        dots: true,
+        centerMode: true,
+        centerPadding: '20px',
+        variableWidth: true,
+    }
+  },
+  {
+    breakpoint: 2500,
+    settings: "unslick"
+  },
+  ]
+});
+
 
 //open and close tab menu
 $('.nav-tabs-dropdown')

@@ -339,7 +339,7 @@
 		}
 	}
 }
-.testimonials-slider{
+.testimonials-slider, .tag-slider{
 	.slick-list{
 		padding-left: 0 !important;
 	}
@@ -381,7 +381,7 @@
 	}
 }
 
-.articles-slider, .product-image-slider{
+.articles-slider, .product-image-slider, .tag-slider{
 	&:after, &:before{
 		display: none;
 	}
