@@ -118,7 +118,7 @@
 				letter-spacing: 0.2px;
 				color: #FF5F7A;
 				margin-left: 4px;
-				white-space: no-wrap;
+				white-space: nowrap;
 				@media (max-width: 767px){
 					font-size: 15px;
 				}
@@ -151,5 +151,14 @@
 	}
 	@media (max-width: 767px){
 		padding: 15px 0 0 0;
+	}
+}
+.product-description{
+	.product-offer{
+		.product-sale-price{
+			@media (max-width: 767px){
+				font-size: 12px;
+			}
+		}
 	}
 }
