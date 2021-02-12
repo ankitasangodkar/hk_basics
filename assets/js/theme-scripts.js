@@ -107,7 +107,7 @@ $('.info-slider').slick({
 
 $('.articles-slider').slick({
   slidesToShow: 3,
-  slidesToScroll: 3,
+  slidesToScroll: 6,
   dots: false,
   arrows: false,
   responsive: [
@@ -128,7 +128,11 @@ $('.articles-slider').slick({
         arrows: false,
         dots: true,
     }
-  }
+  },
+  {
+    breakpoint: 2500,
+    settings: "unslick"
+  },
   ]
 });
 
