@@ -190,6 +190,14 @@
 			line-height: 28px;
 			letter-spacing: 0.1px;
 			color: #3E454C;
+			@media (max-width: 767px){
+				font-weight: 500;
+				font-size: 14px;
+				line-height: 28px;
+				letter-spacing: 0.1px;
+				color: #3E454C;
+				margin-bottom: 25px;
+			}
 		}
 		&-content{
 			font-weight: 300;
