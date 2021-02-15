@@ -60,6 +60,7 @@
 	}
 }
 button{
+	cursor: pointer;
 	&:focus{
 		outline: 0;
 		text-decoration: none !important;
@@ -84,6 +85,7 @@ button{
 		color: #FFFFFF;
 		transition: all 0.4s ease-in;
 		border: 1px solid #FF5F7A;
+		cursor: pointer;
 		@media (max-width: 991px){
 			width: 100%;
 			margin-top: 20px;
@@ -129,6 +131,7 @@ button{
 		cursor: pointer;
 		border-top-left-radius: 24px !important;
 		border-bottom-left-radius: 24px !important;
+		cursor: pointer;
 		&:hover{
 			color: #07A5B5;
 			border: 1px solid #07A5B5;
@@ -184,6 +187,7 @@ button{
 			width: 210px;
 	    	margin-left: 3em;
 	    	background: #fff;
+	    	cursor: pointer;
 			&:hover{
 				color: #FFF;
 				border: 2px solid #FF5F7A;

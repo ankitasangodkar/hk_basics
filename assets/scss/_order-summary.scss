@@ -131,6 +131,13 @@
 				letter-spacing: 0.2px;
 				color: #3E454C;
 				margin-bottom: 0;
+				@media (max-width: 767px){
+					font-weight: 500;
+					font-size: 18px;
+					line-height: 27px;
+					letter-spacing: 0.1px;
+					color: #3E454C;
+				}
 			}
 			.description{
 				font-weight: normal;
@@ -138,7 +145,7 @@
 				line-height: 15px;
 				color: #687582;
 				font-family: 'Montserrat', sans-serif;
-				margin-bottom: 5px;
+				margin: 5px 0;
 			}
 			.price{	
 				font-weight: 500;
