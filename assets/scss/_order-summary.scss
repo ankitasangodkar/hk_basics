@@ -72,7 +72,7 @@
 				line-height: 17px;
 				letter-spacing: 0.1px;
 				position: relative;
-				white-space: nowrap;
+			    width: 80px;
 				&-placed{
 					color: #3E454C;
 					&:after{
@@ -110,8 +110,9 @@
 		}
 	}
 	.seperator{
-		width: 100px;
-		margin-right: 50px;
+		width: 80px;
+		margin-left: 0;
+		margin-right: 20px;
 	}
 	.product-order-item{
 	    display: flex;
