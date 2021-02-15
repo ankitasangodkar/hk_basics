@@ -1,5 +1,11 @@
 .suggested-products{
+    margin-top: 70px;
 	margin-bottom: 40px;
+	.container{
+		@media (max-width: 767px){
+			padding: 0;
+		}
+	}
 	.title{
 		font-weight: 500;
 		font-size: 28px;

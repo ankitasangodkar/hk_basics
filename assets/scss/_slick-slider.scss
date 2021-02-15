@@ -108,6 +108,11 @@
 .product-slider{
 	.slick-slide{
 		margin: 10px 5px 0 5px;
+	    &.product-card{
+	    	@media (max-width: 767px){
+    		    margin: 30px 15px;
+	    	}
+	    }	
 		@media (min-width: 768px){
  			margin: 30px 15px 0 0;
 		}
@@ -130,6 +135,9 @@
 	}
 	&:before{
 		display: none;
+	}
+	@media (max-width: 767px){
+		padding: 0;
 	}
 }
 .product-image-slider{
