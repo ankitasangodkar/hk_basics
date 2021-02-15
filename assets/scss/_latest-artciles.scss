@@ -179,6 +179,8 @@
 				line-height: 30px;
 				margin-bottom: 50px;
 				text-align: center;
+				margin-top: 53px;
+			    margin-bottom: 33px;
 		    }
 		}
 	}
@@ -204,6 +206,9 @@
 	.latest-articles-cards{
 		margin-top: 25px;
 	    background: white;
+	    .article-card{
+	    	margin-top: 55px;
+	    }
 	}
 }
 .info-block{
@@ -252,5 +257,6 @@
 	@media (max-width: 767px){
 		background: transparent;
 		box-shadow: none;
+		padding: 34px 0 16px;
 	}
 }
