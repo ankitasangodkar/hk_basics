@@ -87,6 +87,7 @@
 				color: #3E454C;
 				margin-bottom: 4px;
 				position: relative;
+				text-align: right;
 				&.dispatched{
 					&:after{
 					    content: '';
@@ -108,9 +109,16 @@
 					    position: absolute;
 					    right: 30px;
 					    font-weight: bold;
-				        left: -20px;
-    					top: 1px;
+					    left: -5px;
+					    top: 1px;
+					    text-align: left;
+					    @media (max-width: 767px){
+					    	left: -20px;
+					    }
 					}
+				}
+				@media (max-width: 767px){
+					text-align: left;
 				}
 			}
 			.date{
@@ -122,7 +130,7 @@
 			}
 			@media (max-width: 767px){
 				margin-bottom: 15px;
-			    margin-left: 20px;
+			    margin-left: 10px;
 			}
 		}
 	}
