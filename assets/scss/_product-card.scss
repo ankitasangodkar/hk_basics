@@ -22,6 +22,9 @@
 		&-blue{
 			background: linear-gradient(270.17deg, #FFFFFF 1.03%, rgba(255, 255, 255, 0) 99.94%), #C0E3F1;
 		}
+		@media (max-width: 767px){
+		border-radius: 24px 24px 48px 0px;
+		}
 	}
 	&-img{
 		position: relative;
