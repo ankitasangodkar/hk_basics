@@ -56,6 +56,13 @@
 					line-height: 20px;
 					letter-spacing: 0.2px;
 					color: #687582;
+					@media (max-width: 767px){
+						font-weight: 400;
+						font-size: 12px;
+						line-height: 15px;
+						margin-bottom: 10px;
+						font-family: 'Montserrat', sans-serif;
+					}
 				}
 				.price{
 					font-weight: 500;
@@ -119,6 +126,10 @@
 				}
 				@media (max-width: 767px){
 					text-align: left;
+					font-family: 'Montserrat', sans-serif;
+					font-weight: 600;
+					font-size: 14px;
+					line-height: 17px;
 				}
 			}
 			.date{
