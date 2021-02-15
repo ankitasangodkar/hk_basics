@@ -68,6 +68,9 @@
 			}
 			&-body{
 				padding: 0;
+				.form-control{
+					color: #687582;
+				}
 				.location{
 					font-weight: 500;
 					font-size: 20px;
