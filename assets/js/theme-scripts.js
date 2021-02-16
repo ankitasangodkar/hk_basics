@@ -69,7 +69,7 @@ $('.product-tag-slider').slick({
     {
       breakpoint: 767,
       settings: {
-        slidesToScroll: 1,
+        slidesToScroll: 2,
         slidesToShow: 4,
         arrows: false,
         dots: true,
@@ -93,7 +93,7 @@ $('.info-slider').slick({
       settings: {
         centerMode:true,
         slidesToShow: 2,
-        slidesToScroll: 2,
+        slidesToScroll: 3,
         dots: false,
         infinite: true,
         cssEase: 'linear',
