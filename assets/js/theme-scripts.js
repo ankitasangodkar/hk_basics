@@ -93,7 +93,7 @@ $('.info-slider').slick({
       settings: {
         centerMode:true,
         slidesToShow: 2,
-        slidesToScroll: 3,
+        slidesToScroll: 4,
         dots: false,
         infinite: true,
         cssEase: 'linear',
