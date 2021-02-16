@@ -120,11 +120,7 @@
 	.slick-list{
 		padding-left: 0 !important;
 	}
-	.slide-arrow{
- 		&.next-arrow{
-		    opacity: 0;
- 		}
-	}
+
 	&:after{
 		display: none;
 		@media (min-width: 768px){
