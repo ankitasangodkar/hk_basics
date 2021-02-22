@@ -200,7 +200,7 @@ $('.tag-slider').slick({
       breakpoint: 767,
       settings: {
         slidesToScroll: 4,
-        slidesToShow: 1,
+        slidesToShow: 4,
         arrows: false,
         dots: true,
         centerMode: true,
