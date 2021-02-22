@@ -194,17 +194,17 @@ $('.testimonials-slider').slick({
 
 $('.tag-slider').slick({
   slidesToShow: 8,
-  slidesToScroll: 2,
+  slidesToScroll: 4,
   responsive: [
     {
       breakpoint: 767,
       settings: {
-        slidesToScroll: 4,
-        slidesToShow: 4,
+        slidesToScroll: 2,
+        slidesToShow: 2,
         arrows: false,
         dots: true,
-        centerMode: true,
-        centerPadding: '20px',
+        centerMode: false,
+        centerPadding: '15px',
         variableWidth: true,
     }
   },
